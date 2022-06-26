@@ -1,0 +1,10 @@
+/*先cv这段*/
+var j = document.createElement('script');
+j.setAttribute("src", 'https://ajax.microsoft.com/ajax/jquery/jquery-1.4.min.js');
+document.getElementsByTagName("head")[0].appendChild(j);
+
+/*再cv这段*/
+$("span[title='添加入库']").each(function(){
+    $(this).delay(100).click();
+    console.log($(this).parent().prev().children().eq(0).html());
+});
