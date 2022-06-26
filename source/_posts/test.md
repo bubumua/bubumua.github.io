@@ -1,10 +1,12 @@
 ---
 title: test
+author: Bubu
 date: 2022/6/26 11:31
-categories:
-- Test
 tags:
 - test
+categories:
+- Test
+- File
 ---
 # test
 
