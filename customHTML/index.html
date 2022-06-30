@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>file1</title>
+    <!-- 全局设置新标签页打开 -->
+    <base target="_blank">
+    <style>
+        li {
+            width: fit-content;
+            transition: 0.3s;
+        }
+
+        li:hover {
+            background-color: rgb(210, 219, 252);
+            opacity: 0.7;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="back()">返回豌豆田</button>
+    <ul>
+        <li><a href="day1.html">day1</a></li>
+        <li><a href="">wait for update</a></li>
+
+    </ul>
+</body>
+
+<script>
+    function back() {
+        window.history.back();
+    }
+</script>
+
+</html>
