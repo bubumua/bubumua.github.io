@@ -24,7 +24,7 @@
 <meta property="og:description" content="怎么可能是“清北理科智商标准线”呢？">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-08-03T05:37:41.620Z">
-<meta property="article:modified_time" content="2022-08-03T07:17:43.720Z">
+<meta property="article:modified_time" content="2022-08-03T07:32:55.275Z">
 <meta property="article:author" content="Bubu">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -285,7 +285,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.3k 字
+          1.4k 字
         
       </span>
     
@@ -296,7 +296,7 @@
         
         
         
-          11 分钟
+          12 分钟
         
       </span>
     
@@ -380,6 +380,12 @@
 <p>​	<strong>平衡</strong>：假币是 B</p>
 <p>​	<strong>不平衡</strong>：根据第二次称量的结论，得知假币会偏重/偏轻，所以9和A中偏重/偏轻的就是假币。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs flow">st=&gt;start: 为12枚金币从1到C以16进制编号<br>c1=&gt;condition: 1234vs5678是否平衡？<br>io1y=&gt;inputoutput: 12345678是真币<br>io1n=&gt;inputoutput: 9ABC是真币，12345678是嫌疑币<br>c2_1=&gt;condition: 19ABvs2345是否平衡？<br>c2_2=&gt;condition: 19ABvs2345是否平衡？<br>io2_1y=&gt;inputoutput: un<br>io2_1n=&gt;inputoutput: un<br>c3_1=&gt;condition: 137Avs269C是否平衡？<br>c3_2=&gt;condition: 137Avs269C是否平衡？<br>c3_3=&gt;condition: 137Avs269C是否平衡？<br>c3_4=&gt;condition: 137Avs269C是否平衡？<br><br>st-&gt;c1<br>c1(no)-&gt;io1n-&gt;c2_2<br>c1(yes)-&gt;io1y-&gt;c2_1<br>c2_1(yes)-&gt;io2_1y<br>c2_1(no)-&gt;io2_1n<br></code></pre></td></tr></table></figure>
+<pre><code class=" mermaid">flowchart TB
+st([为12枚金币从1到C以16进制编号])---
+c1&#123;1234vs5678是否平衡&#125;--&gt;|yes|m1(12345678是真币)
+c1&#123;1234vs5678是否平衡&#125;--&gt;|no|m2(9ABC是真币,12345678是嫌疑币)
+
+</code></pre>
 <h1 id="推广"><a class="markdownIt-Anchor" href="#推广"></a> 推广</h1>
 
                 
