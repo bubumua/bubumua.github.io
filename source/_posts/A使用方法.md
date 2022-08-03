@@ -2,6 +2,7 @@
 title: A使用方法
 date: 2022-06-26 17:28:41
 author: Bubu
+mermaid: true
 excerpt: 可以说是Typora的使用说明书
 ---
 # Markdown使用范例
