@@ -16,21 +16,21 @@
   <meta name="author" content="Bubu">
   <meta name="keywords" content="">
   
-    <meta name="description" content="校内课程《编译技术原理及方法》笔记">
+    <meta name="description" content="日常git命令使用清单">
 <meta property="og:type" content="article">
-<meta property="og:title" content="编译技术原理及方法">
-<meta property="og:url" content="http://bubumua.github.io/2022/09/01/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/index.html">
+<meta property="og:title" content="git使用清单">
+<meta property="og:url" content="http://bubumua.github.io/2022/10/08/git%E4%BD%BF%E7%94%A8%E6%B8%85%E5%8D%95/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="校内课程《编译技术原理及方法》笔记">
+<meta property="og:description" content="日常git命令使用清单">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-09-01T09:34:22.185Z">
-<meta property="article:modified_time" content="2022-09-01T09:33:08.910Z">
+<meta property="article:published_time" content="2022-10-08T14:55:03.422Z">
+<meta property="article:modified_time" content="2022-10-08T15:46:53.160Z">
 <meta property="article:author" content="Bubu">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>编译技术原理及方法 - Hexo</title>
+  <title>git使用清单 - Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -257,7 +257,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="编译技术原理及方法"></span>
+            <span id="subtitle" data-typed-text="git使用清单"></span>
           
         </div>
 
@@ -273,8 +273,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-09-01 17:34" pubdate>
-          2022年9月1日 下午
+        <time datetime="2022-10-08 22:55" pubdate>
+          2022年10月8日 晚上
         </time>
       </span>
     
@@ -285,7 +285,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          2.4k 字
+          1.1k 字
         
       </span>
     
@@ -296,7 +296,7 @@
         
         
         
-          20 分钟
+          10 分钟
         
       </span>
     
@@ -336,52 +336,6 @@
 <div class="category-list">
   
   
-    
-    
-    
-    <div class="category row nomargin-x">
-      <a class="category-item 
-          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="笔记"
-        id="heading-7051dc52c184c205e39aa54b4664ae9b" role="tab" data-toggle="collapse" href="#collapse-7051dc52c184c205e39aa54b4664ae9b"
-        aria-expanded="true"
-      >
-        笔记
-        <span class="list-group-count">(2)</span>
-        <i class="iconfont icon-arrowright"></i>
-      </a>
-      
-      <div class="category-collapse collapse show" id="collapse-7051dc52c184c205e39aa54b4664ae9b"
-           role="tabpanel" aria-labelledby="heading-7051dc52c184c205e39aa54b4664ae9b">
-        
-        
-          
-  <div class="category-post-list">
-    
-    
-      
-      
-        <a href="/2022/06/26/Markdown%E4%BD%BF%E7%94%A8%E8%8C%83%E4%BE%8B/" title="Markdown使用范例"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">Markdown使用范例</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2022/09/01/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/" title="编译技术原理及方法"
-           class="list-group-item list-group-item-action
-           active">
-          <span class="category-post">编译技术原理及方法</span>
-        </a>
-      
-    
-  </div>
-
-        
-      </div>
-    </div>
-  
 </div>
 
 
@@ -395,12 +349,12 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">编译技术原理及方法</h1>
+            <h1 style="display: none">git使用清单</h1>
             
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2022年9月1日 下午
+                    本文最后更新于：2022年10月8日 晚上
                   
                 
               </p>
@@ -408,147 +362,67 @@
             
               <div class="markdown-body">
                 
-                <p>[TOC]</p>
-<h1 id="引论"><a class="markdownIt-Anchor" href="#引论"></a> 引论</h1>
-<h2 id="程序设计语言的翻译机制"><a class="markdownIt-Anchor" href="#程序设计语言的翻译机制"></a> 程序设计语言的翻译机制</h2>
-<p>用汇编语言或高级语言编写的程序翻译成机器语言才能被计算机识别。完成这一过程的程序称为<strong>翻译程序</strong>。</p>
-<p>翻译程序有<strong>汇编程序</strong>、<strong>编译程序</strong>和<strong>解释程序</strong>。</p>
-<p>汇编程序和编译程序的翻译机制称为<strong>编译机制</strong></p>
-<p>解释程序的翻译机制称为<strong>解释机制</strong></p>
-<p>源语言：编写源程序的语言</p>
-<p>目标语言：编写目标程序的语言</p>
-<h3 id="汇编程序"><a class="markdownIt-Anchor" href="#汇编程序"></a> 汇编程序</h3>
-<table>
-<thead>
-<tr>
-<th>源语言</th>
-<th>目标语言</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>汇编语言</td>
-<td>机器语言</td>
-</tr>
-</tbody>
-</table>
-<p>汇编程序一般对源程序进行两遍扫描。第一遍进行存储分配，构造各种表格给第二遍扫描使用。第二遍用机器操作码代替源程序中的符号。</p>
-<pre><code class=" mermaid">flowchart LR
-源程序--&gt;汇编程序--&gt;目标程序--&gt;结果数据
-初始数据--&gt;目标程序
-</code></pre>
-<h3 id="编译程序"><a class="markdownIt-Anchor" href="#编译程序"></a> 编译程序</h3>
-<p>编译程序也叫编译器</p>
-<table>
-<thead>
-<tr>
-<th>源语言</th>
-<th>目标语言</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>高级语言</td>
-<td>汇编语言或低级语言</td>
-</tr>
-</tbody>
-</table>
-<p>高级语言编写的源程序在机器上的执行过程可分为两个阶段</p>
+                <h1 id="常用操作"><a class="markdownIt-Anchor" href="#常用操作"></a> 常用操作</h1>
+<h2 id="克隆仓库"><a class="markdownIt-Anchor" href="#克隆仓库"></a> 克隆仓库</h2>
+<p>git clone &lt;remote_url&gt;											克隆远程仓库，自带init效果</p>
+<h2 id="远程仓库相关"><a class="markdownIt-Anchor" href="#远程仓库相关"></a> 远程仓库相关</h2>
+<p>git remote -v																查看连接的所有远程仓库</p>
+<p>git remote add &lt;remote_name&gt; &lt;remote_url&gt;	添加远程仓库</p>
+<p>git remote rm &lt;remote_name&gt;								删除远程仓库</p>
+<p>git remote rename &lt;remote_current_name&gt; &lt;remote_new_name&gt;重命名远程仓库</p>
+<h2 id="分支相关"><a class="markdownIt-Anchor" href="#分支相关"></a> 分支相关</h2>
+<p>git branch &lt;branch_name&gt;	创建分支</p>
+<p>git checkout &lt;branch_name&gt;	切换分支</p>
+<p>git checkout  -b &lt;branch_name&gt;	创建并切换分支</p>
+<p>git branch -d &lt;branch_name&gt; 删除分支</p>
+<p>git merge</p>
+<h2 id="拉取代码"><a class="markdownIt-Anchor" href="#拉取代码"></a> 拉取代码</h2>
+<p>git pull &lt;remote_name&gt;  &lt;remote_branch_name&gt;:&lt;local_branch_name&gt;	拉取远程分支到本地分支，在pull后加上空格<code>--force</code>就能强制拉取覆盖</p>
+<p>git fetch &lt;remote_name&gt; 获取远程仓库更新</p>
+<h2 id="提交推送一条龙"><a class="markdownIt-Anchor" href="#提交推送一条龙"></a> 提交推送一条龙</h2>
+<p>git add (&lt;file_name&gt;|-A)</p>
+<p>git commit -m &lt;“your commit message”&gt;</p>
+<p>git push &lt;remote_name&gt;/&lt;remote_branch_name&gt;</p>
+<h2 id="其它"><a class="markdownIt-Anchor" href="#其它"></a> 其它</h2>
+<p>git init					初始化本目录，使其可以执行git操作</p>
+<p>git status				查看git状态，比如是否有提交待推送文件等等</p>
+<h1 id="一般工作流程"><a class="markdownIt-Anchor" href="#一般工作流程"></a> 一般工作流程</h1>
+<h2 id="初始化"><a class="markdownIt-Anchor" href="#初始化"></a> “初始化”</h2>
+<p>先<code>fork</code>仓库到自己名下。</p>
+<p>本地磁盘上<code>clone</code>自己远程仓库</p>
+<p>在项目中添加他人远程仓库为<code>upstream</code></p>
+<h2 id="pr"><a class="markdownIt-Anchor" href="#pr"></a> PR</h2>
 <ol>
-<li>编译阶段：将源程序翻译成等价的目标程序</li>
-<li>运行阶段：执行目标程序，获得结果</li>
+<li>
+<p><code>git status</code></p>
+<p>检查本地是否有未提交的修改。如果有，把本地的有效修改推送到自己的远程仓库。</p>
+</li>
+<li>
+<p><code>git fetch upstream</code></p>
+<p>抓取上游仓库更新，到本地仓库。</p>
+</li>
+<li>
+<p><code>git checkout &lt;branch&gt;</code></p>
+<p>切换到需要更新分支</p>
+</li>
+<li>
+<p><code>git merge upstream/&lt;branch&gt;</code></p>
+<p>将上游仓库变动合并到本地分支及磁盘上</p>
+</li>
+<li>
+<p>编辑代码</p>
+</li>
+<li>
+<p>推送代码到自己的远程仓库后，请求合并</p>
+</li>
 </ol>
-<p>现代编译器只负责<strong>编译阶段</strong>，<strong>运行阶段</strong>由<strong>操作系统</strong>完成。目标程序加上运行系统（如服务子程序、动态分配程序、装配程序等）输出结果。</p>
-<pre><code class=" mermaid">flowchart LR
-subgraph mt [目标语言为机器语言]
-s1[源程序]--&gt;c1[编译程序]--&gt;t1[目标程序-机器语言]
-end
-t1[目标程序-机器语言]--&gt;运行系统--&gt;可执行程序--&gt;结果数据
-subgraph ct [目标语言为汇编语言]
-源程序--&gt;编译程序--&gt;目标程序-汇编语言--&gt;汇编程序--&gt;目标程序-机器语言
-end
-目标程序-机器语言--&gt;运行系统
-初始数据--&gt;可执行程序
-</code></pre>
-<h3 id="解释程序"><a class="markdownIt-Anchor" href="#解释程序"></a> 解释程序</h3>
-<p>边解释边执行源程序本身，下一条语句的执行依赖于上一条语句的执行结果，最终输出数据。</p>
-<p>解释程序适合于会话型语言。</p>
-<ul>
-<li>优点：易于为用户提供调试功能，对源程序的语法分析和出错处理处理很及时</li>
-<li>缺点：执行速度慢，运行效率低</li>
-</ul>
-<h2 id="编译程序概述"><a class="markdownIt-Anchor" href="#编译程序概述"></a> 编译程序概述</h2>
-<pre><code class=" mermaid">flowchart TB
-subgraph IM&amp;FP [编译5阶段]
-
-subgraph front [编译前端]
-词法分析--&gt;语法分析--&gt;语义分析及中间代码生成
-end
-
-语义分析及中间代码生成--&gt;代码优化
-
-subgraph behind [编译后端]
-代码优化--&gt;目标代码生成
-end
-语法分析 &amp; 词法分析 &amp; 语义分析及中间代码生成 &amp; 代码优化 &amp; 目标代码生成--&gt;符号表管理与错误处理
-end
-源程序--&gt;IM&amp;FP--&gt;目标程序
-tip&gt;中间代码生成和代码优化可以省略]
-</code></pre>
-<h3 id="词法分析"><a class="markdownIt-Anchor" href="#词法分析"></a> 词法分析</h3>
-<p>主要任务：<strong>识别有独立意义的单词</strong>。</p>
-<p>进行词法分析的程序叫<strong>词法分析器</strong>或词法扫描器，根据词法规则识别出<strong>最小的语法单位</strong>，即<strong>单词（Token）</strong>，如关键字、标识符、运算符。</p>
-<p>识别出单词后，转换为长度统一、格式规范的<strong>内部编码</strong>。内部编码由两部分：一、<strong>类别编码</strong>，区别单词种类；二、<strong>单词的值</strong>，即单词本身的编码。</p>
-<h3 id="语法分析"><a class="markdownIt-Anchor" href="#语法分析"></a> 语法分析</h3>
-<p>主要任务：根据语法规则，从单词流中<strong>识别语法成分</strong>，如（表达式、说明、语句、过程和函数）并检查语法成分是否符合语法结构。</p>
-<p>通常将语法分析的结果表示为<strong>语法树</strong>。</p>
-<p>进行语法分析的程序被称为<strong>语法分析器</strong></p>
-<h3 id="语义分析及中间代码生成"><a class="markdownIt-Anchor" href="#语义分析及中间代码生成"></a> 语义分析及中间代码生成</h3>
-<p>语义：语言的各种语法成分的具体含义。</p>
-<p>主要任务：根据语法规则，<strong>分析</strong>已经识别出来的<strong>语法成分的含义</strong>。与语法分析密切相关。通常语法分析器在分析语法成分的同时会进行语义分析，这种方式被称为语法制导翻译。</p>
-<p>在语义分析时，语法分析器会进行相应检查。</p>
-<p><strong>语义分析是整个编译程序中最有实质意义的翻译任务</strong>，语法成分经过语义分析被翻译成<strong>中间代码</strong>。</p>
-<blockquote>
-<p>中间代码主要是为了便于代码优化和目标代码的移植。目前常见的中间语言形式有三元式、四元式、逆波兰表示等。</p>
-<p>中间代码至少应有两个性质：容易产生和容易翻译成目标语言。例如 Java 字节码、MSIL</p>
-</blockquote>
-<h3 id="代码优化"><a class="markdownIt-Anchor" href="#代码优化"></a> 代码优化</h3>
-<p>主要任务：<strong>对中间代码进行等价的加工处理</strong>。</p>
-<p><strong>空间复杂度</strong>和<strong>时间复杂度</strong>是衡量目标代码质量的两大指标。</p>
-<h3 id="目标代码生成"><a class="markdownIt-Anchor" href="#目标代码生成"></a> 目标代码生成</h3>
-<p>主要任务：把经过优化的中间代码变成目标代码（机器语言或汇编语言）</p>
-<h3 id="编译前端和编译后端"><a class="markdownIt-Anchor" href="#编译前端和编译后端"></a> 编译前端和编译后端</h3>
-<p>词法分析、语法分析、语义分析及中间代码生成，这些与源语言相关的部分被称为<strong>编译前端</strong></p>
-<p>代码优化、目标代码生成，这些与目标语言相关的部分被称为<strong>编译后端</strong></p>
-<p>编译分前后端不仅利于代码优化，还有利于目标代码的生成和移植。</p>
-<ul>
-<li>可以给同一个编译前端配不同的编译后端，利于代码移植。比如Java就有Java中间码</li>
-<li>也可以给不同的编译前端配同一个编译后端，源代码兼容性更好。比如GCC。GCC的编译前端是多种语言的不同分析器，经过前端编译生成**抽象语法树（AST，Abstract Syntax Tree）**形式的中间代码；GCC的编译后端以此生成目标代码</li>
-</ul>
-<p>由于整个编译过程中会存在各种问题，所以<strong>编译的各个阶段</strong>都涉及<strong>符号表管理</strong>和<strong>错误处理</strong>。</p>
-<h3 id="符号表管理"><a class="markdownIt-Anchor" href="#符号表管理"></a> 符号表管理</h3>
-<p>符号表管理也被称为表格管理。主要功能：按照编译需求，生成不同用途的符号表（常数表、名字特征表、循环层次表等等），并提供合适的方式查询、修改、维护表格。完成造表并对表格增删改查的程序叫<strong>符号表管理程序</strong></p>
-<h3 id="错误处理"><a class="markdownIt-Anchor" href="#错误处理"></a> 错误处理</h3>
-<p>主要功能：发现错误、错误局部化（将错误的影响限制在尽可能小的范围内）、续编译（发现错误后还能继续完成剩余部分的分析处理）</p>
-<p>不同阶段的不同错误：</p>
-<ol>
-<li>词法分析：拼写错误</li>
-<li>语法分析：语法错误</li>
-<li>语义分析：类型不匹配、参数不匹配</li>
-</ol>
-<h2 id="编译程序的分遍"><a class="markdownIt-Anchor" href="#编译程序的分遍"></a> 编译程序的分遍</h2>
-<p>编译程序的5个阶段对源程序或等价源程序的扫描次数不定，一次或多次都有可能。</p>
-<p>对源程序或等价源程序进行相关的加工处理工作，称为<strong>遍（Pass）</strong></p>
-<p>编译程序有单遍（扫描一次即生成目标代码），也有多遍（每遍只完成编译程序的一部分或几部分工作）</p>
-<p>决定编译程序分遍数目的因素：</p>
-<ul>
-<li>计算机存储容量大小</li>
-<li>编译程序功能的强弱</li>
-<li>源语言的繁简</li>
-<li>目标程序的优化程度</li>
-<li>设计和实现编译程序时所用的工具的先进性</li>
-<li>参加人员的数量和素质</li>
-</ul>
+<h1 id="不常用的操作"><a class="markdownIt-Anchor" href="#不常用的操作"></a> 不常用的操作</h1>
+<h2 id="解决vscode无法连接到github的问题"><a class="markdownIt-Anchor" href="#解决vscode无法连接到github的问题"></a> 解决vscode无法连接到GitHub的问题</h2>
+<p>git config --global --unset git.proxy<br />
+git config --global --unset https.proxy<br />
+git config --global --unset http.proxy</p>
+<h2 id="生成公钥和密钥"><a class="markdownIt-Anchor" href="#生成公钥和密钥"></a> 生成公钥和密钥</h2>
+<p>ssh-keygen -t rsa -C “<a href="mailto:1069785399@qq.com">1069785399@qq.com</a>”</p>
 
                 
               </div>
@@ -556,27 +430,6 @@ tip&gt;中间代码生成和代码优化可以省略]
             <hr/>
             <div>
               <div class="post-metas my-3">
-  
-    <div class="post-meta mr-3 d-flex align-items-center">
-      <i class="iconfont icon-category"></i>
-      
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/%E7%AC%94%E8%AE%B0/" class="category-chain-item">笔记</a>
-  
-  
-
-      </span>
-    
-  
-</span>
-
-    </div>
   
   
 </div>
@@ -587,8 +440,8 @@ tip&gt;中间代码生成和代码优化可以省略]
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>编译技术原理及方法</div>
-      <div>http://bubumua.github.io/2022/09/01/编译原理/</div>
+      <div>git使用清单</div>
+      <div>http://bubumua.github.io/2022/10/08/git使用清单/</div>
     </div>
     <div class="license-meta">
       
@@ -600,13 +453,13 @@ tip&gt;中间代码生成和代码优化可以省略]
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年9月1日</div>
+          <div>2022年10月8日</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
           <div>更新于</div>
-          <div>2022年9月1日</div>
+          <div>2022年10月8日</div>
         </div>
       
       <div class="license-meta-item">
@@ -635,18 +488,12 @@ tip&gt;中间代码生成和代码优化可以省略]
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/10/08/git%E4%BD%BF%E7%94%A8%E6%B8%85%E5%8D%95/" title="git使用清单">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">git使用清单</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/08/03/%E6%AF%94%E8%BE%83%E6%B3%95%E6%9F%A5%E5%BC%82%E5%B8%B8/" title="12金币找假">
-                        <span class="hidden-mobile">12金币找假</span>
+                      <a href="/2022/09/01/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/" title="编译技术原理及方法">
+                        <span class="hidden-mobile">编译技术原理及方法</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -703,13 +550,6 @@ tip&gt;中间代码生成和代码优化可以省略]
   
 
 
-
-
-  <script>
-  Fluid.utils.createScript('https://lib.baomitu.com/mermaid/8.14.0/mermaid.min.js', function() {
-    mermaid.initialize({"theme":"default"});
-  });
-</script>
 
 
 
