@@ -130,7 +130,7 @@ $$
 | \times      | \times   |
 | ⋅ \cdot⋅  | \cdot    |
 | ÷ \div÷   | \div     |
-| \neq        | \neq     |
+| $\neq$      | \neq     |
 | ≡ \equiv≡ | \equiv   |
 | ≤ \leq≤   | \leq     |
 | ≥ \geq≥   | \geq     |
