@@ -4,6 +4,11 @@ date: 2022-06-26 17:28:41
 author: Bubu
 mermaid: true
 excerpt: 可以说是Typora的使用说明书
+categories:
+- 笔记
+- Markdown
+tags:
+- Markdown
 ---
 # Markdown使用范例
 
@@ -11,7 +16,7 @@ markdown支持html语法，所以很多样式其实都可以用内置style写法
 
 ## 文字修饰
 
-`<u>`underline this, you can ctrl+u`</u>`
+`<u>`underline this, you can ctrl+u `</u>`
 
 ~~i want to delete this line~~
 
@@ -21,7 +26,7 @@ markdown支持html语法，所以很多样式其实都可以用内置style写法
 
 `<span style='color:blue;background:pink;font-size:28px;font-family:幼圆;'>`html+内置style包围
 
- `<a href="#spch">`跳转：其他特殊字符`</a>`
+ `<a href="#spch">`跳转：其他特殊字符 `</a>`
 
 <center>居中</center>
 
@@ -130,7 +135,7 @@ $$
 | \times      | \times   |
 | ⋅ \cdot⋅  | \cdot    |
 | ÷ \div÷   | \div     |
-| $\neq$      | \neq     |
+| $\neq$    | \neq     |
 | ≡ \equiv≡ | \equiv   |
 | ≤ \leq≤   | \leq     |
 | ≥ \geq≥   | \geq     |
@@ -251,7 +256,7 @@ style n1 fill:#f9f,stroke:#333,stroke-width:4px
 
 ## 参考
 
-`<a href=https://www.jianshu.com/p/191d1e21f7ed/>`Markdown语法`</a>`
+`<a href=https://www.jianshu.com/p/191d1e21f7ed/>`Markdown语法 `</a>`
 
 [颜色表](https://blog.csdn.net/jinggod/article/details/78241901?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-5.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-5.channel_param)
 
@@ -259,7 +264,7 @@ style n1 fill:#f9f,stroke:#333,stroke-width:4px
 
 [更多公式&amp;符号](https://www.cnblogs.com/nowgood/p/latexstart.html)
 
-`<a href=https://blog.csdn.net/qq_35896136/article/details/104975932>`特殊符号`</a>`
+`<a href=https://blog.csdn.net/qq_35896136/article/details/104975932>`特殊符号 `</a>`
 
 [Markdown绘制流程图的方法 - JackPeng博客 (yuanfentiank789.github.io)](https://yuanfentiank789.github.io/2017/04/12/flowchart/)
 
