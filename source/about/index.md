@@ -12,4 +12,6 @@ author: Bubu
 
 得到之后索然无味
 
-![崔三娘](../img/background/崔三娘.png "崔三娘修行")
+![崔三娘](https://cdn.jsdelivr.net/gh/bubumua/image-store@master/assets/202211122127319.jpg)
+
+![cuisanniang](/img/background/bg崔三娘.jpg)
