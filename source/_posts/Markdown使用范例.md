@@ -4,8 +4,10 @@ author: Bubu
 mermaid: true
 tags:
 - 说明书
+- Markdown
 categories:
 - 笔记
+- Markdown
 ---
 # Markdown使用范例
 
@@ -13,7 +15,7 @@ markdown支持html语法，所以很多样式其实都可以用内置style写法
 
 ## 文字修饰
 
-`<u>`<u>underline this, you can ctrl+u</u>`</u>`
+`<u><u>`underline this, you can ctrl+u `</u></u>`
 
 ~~i want to delete this line~~
 
@@ -23,9 +25,9 @@ markdown支持html语法，所以很多样式其实都可以用内置style写法
 
 `<span style='color:blue;background:pink;font-size:28px;font-family:幼圆;'>html+内置style包围</span>`效果如下：
 
-<span style='color:blue;background:pink;font-size:28px;font-family:幼圆;'>html+内置style包围</span>
+`<span style='color:blue;background:pink;font-size:28px;font-family:幼圆;'>`html+内置style包围
 
- <a href="#spch">跳转：其他特殊字符</a>
+ `<a href="#spch">`跳转：其他特殊字符 `</a>`
 
 <center>居中</center>
 
@@ -35,7 +37,7 @@ markdown支持html语法，所以很多样式其实都可以用内置style写法
 
 ## Latex以及特殊字符
 
-**可用\$...\$块内显示**
+可在\$\$...\$\$公式块中编辑公式，或者用\$...\$行内显示。
 
 ### 分段、分式函数
 
@@ -97,14 +99,14 @@ $$
 
 ### 希腊字母
 
-| 大写          | Markdown | 小写                 | Markdown    |
-| ------------- | -------- | -------------------- | ----------- |
+| 大写        | Markdown | 小写             | Markdown    |
+| ----------- | -------- | ---------------- | ----------- |
 | A A*A*      | A        | α \alpha*α*      | \alpha      |
 | B B*B*      | B        | β \beta*β*       | \beta       |
 | Γ \GammaΓ   | \Gamma   | γ \gamma*γ*      | \gamma      |
 | Δ \DeltaΔ   | \Delta   | δ \delta*δ*      | \delta      |
 | E E*E*      | E        | ϵ \epsilon*ϵ*    | \epsilon    |
-|               |          | ε \varepsilon*ε* | \varepsilon |
+|             |          | ε \varepsilon*ε* | \varepsilon |
 | Z Z*Z*      | Z        | ζ \zeta*ζ*       | \zeta       |
 | H H*H*      | H        | η \eta*η*        | \eta        |
 | Θ \ThetaΘ   | \Theta   | θ \theta*θ*      | \theta      |
@@ -121,28 +123,28 @@ $$
 | T T*T*      | T        | τ \tau*τ*        | \tau        |
 | Υ \UpsilonΥ | \Upsilon | υ \upsilon*υ*    | \upsilon    |
 | Φ \PhiΦ     | \Phi     | ϕ \phi*ϕ*        | \phi        |
-|               |          | φ \varphi*φ*     | \varphi     |
+|             |          | φ \varphi*φ*     | \varphi     |
 | X X*X*      | X        | χ \chi*χ*        | \chi        |
 | Ψ \PsiΨ     | \Psi     | ψ \psi*ψ*        | \psi        |
 | Ω \OmegaΩ   | \Omega   | ω \omega*ω*      | \omega      |
 
 ### **运算符**
 
-| 运算符      | Markdown |
-| ----------- | -------- |
+| 运算符    | Markdown |
+| --------- | -------- |
 | ± \pm±    | \pm      |
-| \times      | \times   |
+| \times    | \times   |
 | ⋅ \cdot⋅  | \cdot    |
 | ÷ \div÷   | \div     |
-| \neq        | \neq     |
+| \neq      | \neq     |
 | ≡ \equiv≡ | \equiv   |
 | ≤ \leq≤   | \leq     |
 | ≥ \geq≥   | \geq     |
 
-### <span id="spch">其它特殊字符</span>
+### `<span id="spch">`其它特殊字符
 
-| 符号            | Markdown   |
-| --------------- | ---------- |
+| 符号          | Markdown   |
+| ------------- | ---------- |
 | ∀ \forall∀    | \forall    |
 | ∞ \infty∞     | \infty     |
 | ∅ \emptyset∅  | \emptyset  |
@@ -166,8 +168,6 @@ $$
 \hat{\alpha}
 \tilde{\iota}
 $$
-
-
 
 ## mermaid
 

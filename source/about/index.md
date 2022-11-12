@@ -2,7 +2,7 @@
 title: about
 layout: about
 date: 2022-06-26 01:18:19
-author: 你说呢，当然是卜卜拉
+author: Bubu
 ---
 # About me
 

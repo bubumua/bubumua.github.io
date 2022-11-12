@@ -4,9 +4,13 @@ author: Bubu
 excerpt: 日常git命令使用清单
 categories: 
 - 笔记
+- Git
 tags:  
 - git
 ---
+
+<img src="/img/assets/avatar.jpg" alt="pic" />
+
 # 常用操作
 
 ## 克隆仓库
