@@ -30,6 +30,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
   - "customHTML/*"
+  - "*/skip_render/*"
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -97,6 +98,10 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+markdown:
+  plugins:
+    - "@traptitech/markdown-it-katex"
+
 ## Themes: https://hexo.io/themes/
 #theme: landscape 
 theme: fluid

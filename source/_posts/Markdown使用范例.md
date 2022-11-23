@@ -2,12 +2,14 @@
 title: Markdown使用范例
 author: Bubu
 mermaid: true
+math: true
 tags:
 - 说明书
 - Markdown
 categories:
 - 笔记
 - Markdown
+excerpt: Markdown的使用笔记
 ---
 # Markdown使用范例
 
@@ -25,9 +27,11 @@ markdown支持html语法，所以很多样式其实都可以用内置style写法
 
 `<span style='color:blue;background:pink;font-size:28px;font-family:幼圆;'>html+内置style包围</span>`效果如下：
 
-`<span style='color:blue;background:pink;font-size:28px;font-family:幼圆;'>`html+内置style包围
+<span style='color:blue;background:pink;font-size:28px;font-family:幼圆;'>html+内置style包围</span>
 
  `<a href="#spch">`跳转：其他特殊字符 `</a>`
+
+用Markdown语法，链接用 `[text](#your-id)`，锚点用span标签包裹，然后为span标签添加id属性。
 
 <center>居中</center>
 
@@ -97,63 +101,106 @@ $$
 3\vec{a}
 $$
 
+### 竖式计算
+
+$$
+this\ is\  
+\begin{array}{r}
+1001\ 0101B\\
++0100\ 1010B\\
+\hline
+1101\ 1111B
+\end{array}
+\\
+\begin{align}
+dfd
+\\
+dfdf
+\\
+dfdf
+\end{align}
+$$
+
+`\ce{}`可以让括号内紧接着字母的数字自动变下标，一些符号自动变上标(由于渲染问题，可能无法正常显示)
+
+$$
+\ce{H2O,H,Ca^2+}
+$$
+
 ### 希腊字母
 
-| 大写        | Markdown | 小写             | Markdown    |
-| ----------- | -------- | ---------------- | ----------- |
-| A A*A*      | A        | α \alpha*α*      | \alpha      |
-| B B*B*      | B        | β \beta*β*       | \beta       |
-| Γ \GammaΓ   | \Gamma   | γ \gamma*γ*      | \gamma      |
-| Δ \DeltaΔ   | \Delta   | δ \delta*δ*      | \delta      |
-| E E*E*      | E        | ϵ \epsilon*ϵ*    | \epsilon    |
-|             |          | ε \varepsilon*ε* | \varepsilon |
-| Z Z*Z*      | Z        | ζ \zeta*ζ*       | \zeta       |
-| H H*H*      | H        | η \eta*η*        | \eta        |
-| Θ \ThetaΘ   | \Theta   | θ \theta*θ*      | \theta      |
-| I I*I*      | I        | ι \iota*ι*       | \iota       |
-| K K*K*      | K        | κ \kappa*κ*      | \kappa      |
-| Λ \LambdaΛ  | \Lambda  | λ \lambda*λ*     | \lambda     |
-| M M*M*      | M        | μ \mu*μ*         | \mu         |
-| N N*N*      | N        | ν \nu*ν*         | \nu         |
-| Ξ \XiΞ      | \Xi      | ξ \xi*ξ*         | \xi         |
-| O O*O*      | O        | ο \omicron*ο*    | \omicron    |
-| Π \PiΠ      | \Pi      | π \pi*π*         | \pi         |
-| P P*P*      | P        | ρ \rho*ρ*        | \rho        |
-| Σ \SigmaΣ   | \Sigma   | σ \sigma*σ*      | \sigma      |
-| T T*T*      | T        | τ \tau*τ*        | \tau        |
-| Υ \UpsilonΥ | \Upsilon | υ \upsilon*υ*    | \upsilon    |
-| Φ \PhiΦ     | \Phi     | ϕ \phi*ϕ*        | \phi        |
-|             |          | φ \varphi*φ*     | \varphi     |
-| X X*X*      | X        | χ \chi*χ*        | \chi        |
-| Ψ \PsiΨ     | \Psi     | ψ \psi*ψ*        | \psi        |
-| Ω \OmegaΩ   | \Omega   | ω \omega*ω*      | \omega      |
-
+| 大写       | Markdown | 小写            | Markdown    |
+| ---------- | -------- | --------------- | ----------- |
+| A          | A        | α $\alpha$      | \alpha      |
+| B          | B        | β $\beta$       | \beta       |
+| $\Gamma$   | \Gamma   | γ $\gamma$      | \gamma      |
+| $\Delta$   | \Delta   | δ $\delta$      | \delta      |
+| E          | E        | ϵ $\epsilon$    | \epsilon    |
+|            |          | ε $\varepsilon$ | \varepsilon |
+| Z          | Z        | ζ $\zeta$       | \zeta       |
+| H          | H        | η $\eta$        | \eta        |
+| $\Theta$   | \Theta   | θ $\theta$      | \theta      |
+| I          | I        | ι $\iota$       | \iota       |
+| K          | K        | κ $\kappa$      | \kappa      |
+| $\Lambda$  | \Lambda  | λ $\lambda$     | \lambda     |
+| M          | M        | μ $\mu$         | \mu         |
+| N          | N        | ν $\nu$         | \nu         |
+| $\Xi$      | \Xi      | ξ $\xi$         | \xi         |
+| O          | O        | ο $\omicron$    | \omicron    |
+| $\Pi$      | \Pi      | π $\pi$         | \pi         |
+| $P$        | P        | ρ $\rho$        | \rho        |
+| $\Sigma$   | \Sigma   | σ $\sigma$      | \sigma      |
+| $T$        | T        | τ $\tau$        | \tau        |
+| $\Upsilon$ | \Upsilon | υ $\upsilon$    | \upsilon    |
+| $\Phi$     | \Phi     | ϕ $\phi$        | \phi        |
+|            |          | φ $\varphi$     | \varphi     |
+| $X$        | X        | χ $\chi$        | \chi        |
+| $\Psi$     | \Psi     | ψ $\psi$        | \psi        |
+| $\Omega$   | \Omega   | ω $\omega$      | \omega      |
+$
 ### **运算符**
 
-| 运算符    | Markdown |
-| --------- | -------- |
-| ± \pm±    | \pm      |
-| \times    | \times   |
-| ⋅ \cdot⋅  | \cdot    |
-| ÷ \div÷   | \div     |
-| \neq      | \neq     |
-| ≡ \equiv≡ | \equiv   |
-| ≤ \leq≤   | \leq     |
-| ≥ \geq≥   | \geq     |
 
-### `<span id="spch">`其它特殊字符
+| 运算符           | latex            | 运算符             | latex              |
+| ---------------- | ---------------- | ------------------ | ------------------ |
+| $\pm$            | `\pm`            | $\mp$              | `\mp`              |
+| $\times$         | `\times`         | $\cdot$            | `\cdot`            |
+| $\div$           | `\div`           |                    |                    |
+| $\neq$           | `\neq`           | $\equiv$           | `\equiv`           |
+| $\leq$           | `\leq`           | $\geq$             | `\geq`             |
+| $\ll$            | `\ll`            | $\gg$              | `\gg`              |
+| $\sim$           | `\sim`           | $\cong$            | `\cong`            |
+| $\subset$        | `\subset`        | $\subseteq$        | `\subseteq`        |
+| $\supset$        | `\supset`        | $\supseteq$        | `\supseteq`        |
+| $\in$            | `\in`            | $\ni$              | `\ni`              |
+| $\notin$         | `\notin`         |                    |                    |
+| $\cap$           | `\cap`           | $\cup$             | `\cup`             |
+| $\vee$           | `\vee`           | $\wedge$           | `\wedge`           |
+| $\circ$          | `\circ`          | $\oplus$           | `\oplus`           |
+| $\otimes$        | `\otimes`        | $\odot$            | `\odot`            |
+| $\bigtriangleup$ | `\bigtriangleup` | $\bigtriangledown$ | `\bigtriangledown` |
+| $\perp$          | `\perp`          |                    |                    |
+| $\sum$           | `\sum`           | $\prod$            | `\prod`            |
+| $\int$           | `\int`           | $\oint$            | `\oint`            |
+| $\propto$        | `\propto`        |                    |                    |
+| $\mid$           | `\mid`           |                    |                    |
 
-| 符号          | Markdown   |
-| ------------- | ---------- |
-| ∀ \forall∀    | \forall    |
-| ∞ \infty∞     | \infty     |
-| ∅ \emptyset∅  | \emptyset  |
-| ∃ \exists∃    | \exists    |
-| ∇ \nabla∇     | \nabla     |
-| ⊥ \bot⊥       | \bot       |
-| ∠ \angle∠     | \angle     |
-| ∵ \because∵   | \because   |
-| ∴ \therefore∴ | \therefore |
+
+### <span id="spch">其它特殊字符</span>
+
+| 符号         | Markdown     |
+| ------------ | ------------ |
+| $\forall$    | `\forall`    |
+| $\exists$    | `\exists`    |
+| $\because$   | `\because`   |
+| $\therefore$ | `\therefore` |
+| $\angle$     | `\angle`     |
+| $\bot$       | `\bot`       |
+| $\nabla$     | `\nabla`     |
+| $\infty$     | `\infty`     |
+| $\emptyset$  | `\emptyset`  |
+| $\mathbb{R}$ | `\mathbb{R}` |
+| $\mathbb{z}$ | `\mathbb{z}` |
 
 ### 单字符音标符号
 
@@ -168,6 +215,53 @@ $$
 \hat{\alpha}
 \tilde{\iota}
 $$
+
+## flow
+
+一种简单的流程图语法。这里介绍一种先“定义/声明“，后”连接“的代码组织形式。
+
+```flow
+st=>start: Start
+i=>inputoutput: 输入年份n
+cond1=>condition: n能否被4整除？
+cond2=>condition: n能否被100整除？
+cond3=>condition: n能否被400整除？
+o1=>inputoutput: 输出非闰年
+o2=>inputoutput: 输出非闰年
+o3=>inputoutput: 输出闰年
+o4=>inputoutput: 输出闰年
+e=>end
+
+st->i->cond1
+cond1(no)->o1->e
+cond1(yes)->cond2
+cond2(no)->o3->e
+cond2(yes)->cond3
+cond3(yes)->o2->e
+cond3(no)->o4->e
+```
+
+```flow
+st=>start: Start
+i=>inputoutput: 输入年份n
+cond1=>condition: n能否被4整除？
+cond2=>condition: n能否被100整除？
+cond3=>condition: n能否被400整除？
+o1=>inputoutput: 输出非闰年
+o2=>inputoutput: 输出非闰年
+o3=>inputoutput: 输出闰年
+o4=>inputoutput: 输出闰年
+e=>end
+
+st->i->cond1
+cond1(no)->o1->e
+cond1(yes)->cond2
+cond2(no)->o3->e
+cond2(yes)->cond3
+cond3(yes)->o2->e
+cond3(no)->o4->e
+```
+
 
 ## mermaid
 
@@ -186,6 +280,26 @@ $$
 #### 节点形状以及连接
 
 ```mermaid
+flowchart TB
+n3[[子例]]o--o|文本写法1|n1(圆角矩形)--文本写法2---n2([大圆角矩形])
+subgraph global [bigone]
+subgraph u [un]
+n6>非对称标签] & n7{菱形} ==>|m| n8{{六边形}} & n4[(圆柱)] 
+end
+n8{{六边形}} & n4[(圆柱)]x---x n2([大圆角矩形])
+subgraph p [平行四边形]
+n9[/平行四边形1/] -->|s| n10[\平行四边形2\]
+end
+end
+u-->|subgraph to  subgraph|p o---o|subgraph to node| n6>非对称标签]
+n10[\平行四边形2\] ==>|sd|n11[/正梯形\] & n12[\倒梯形/]<-.->|sd|n5((圆形)) 
+%%点击圆角矩形，打开链接
+click n2 "https://www.baidu.com" _blank
+%%目前Typora里只能设置圆角矩形的样式
+style n1 fill:#f9f,stroke:#333,stroke-width:4px
+```
+
+```
 flowchart TB
 n3[[子例]]o--o|文本写法1|n1(圆角矩形)--文本写法2---n2([大圆角矩形])
 subgraph global [bigone]
