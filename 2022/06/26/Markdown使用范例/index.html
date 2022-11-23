@@ -24,7 +24,7 @@
 <meta property="og:description" content="Markdown的使用笔记">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-06-26T09:28:41.646Z">
-<meta property="article:modified_time" content="2022-11-23T16:51:20.773Z">
+<meta property="article:modified_time" content="2022-11-23T16:58:02.525Z">
 <meta property="article:author" content="Bubu">
 <meta property="article:tag" content="说明书">
 <meta property="article:tag" content="Markdown">
@@ -287,7 +287,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          5.1k 字
+          5.7k 字
         
       </span>
     
@@ -298,7 +298,7 @@
         
         
         
-          43 分钟
+          48 分钟
         
       </span>
     
@@ -649,8 +649,7 @@ dfdf
 dfdf
 \end{align}
 
-\\ce\{\}可以让括号内紧接着字母的数字自动变下标，一些符号自动变上标
-\\
+<p><code>\ce&#123;&#125;</code>可以让括号内紧接着字母的数字自动变下标，一些符号自动变上标</p>
 \ce{H2O,H,Ca^2+}
 
 <h3 id="希腊字母"><a class="markdownIt-Anchor" href="#希腊字母"></a> 希腊字母</h3>
@@ -1062,6 +1061,7 @@ click n2 &quot;https://www.baidu.com&quot; _blank
 %%目前Typora里只能设置圆角矩形的样式
 style n1 fill:#f9f,stroke:#333,stroke-width:4px
 </code></pre>
+<figure class="highlight coq"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs coq">flowchart TB<br>n3[[子例]]o--o|<span class="hljs-type">文本写法1</span>|<span class="hljs-type">n1</span>(圆角矩形)--文本写法<span class="hljs-number">2</span>---n2([大圆角矩形])<br>subgraph global [bigone]<br>subgraph u [un]<br>n6&gt;非对称标签] &amp; n7&#123;菱形&#125; ==&gt;|<span class="hljs-type">m</span>| <span class="hljs-type">n8</span>&#123;&#123;六边形&#125;&#125; &amp; n4[(圆柱)] <br><span class="hljs-keyword">end</span><br>n8&#123;&#123;六边形&#125;&#125; &amp; n4[(圆柱)]x---x n2([大圆角矩形])<br>subgraph p [平行四边形]<br>n9[/平行四边形<span class="hljs-number">1</span>/] --&gt;|<span class="hljs-type">s</span>| <span class="hljs-type">n10</span>[\平行四边形<span class="hljs-number">2</span>\]<br><span class="hljs-keyword">end</span><br><span class="hljs-keyword">end</span><br>u--&gt;|<span class="hljs-type">subgraph</span> to  subgraph|<span class="hljs-type">p</span> o---o|<span class="hljs-type">subgraph</span> to node| <span class="hljs-type">n6</span>&gt;非对称标签]<br>n10[\平行四边形<span class="hljs-number">2</span>\] ==&gt;|<span class="hljs-type">sd</span>|<span class="hljs-type">n11</span>[/正梯形\] &amp; n12[\倒梯形/]&lt;-.-&gt;|<span class="hljs-type">sd</span>|<span class="hljs-type">n5</span>((圆形)) <br>%%点击圆角矩形，打开链接<br>click n2 <span class="hljs-string">&quot;https://www.baidu.com&quot;</span> _blank<br>%%目前Typora里只能设置圆角矩形的样式<br>style n1 fill:#f9f,stroke:#<span class="hljs-number">333</span>,stroke-width:<span class="hljs-number">4</span>px<br></code></pre></td></tr></table></figure>
 <h3 id="sequence-diagram"><a class="markdownIt-Anchor" href="#sequence-diagram"></a> Sequence diagram</h3>
 <h3 id="class-diagram"><a class="markdownIt-Anchor" href="#class-diagram"></a> Class Diagram</h3>
 <h2 id="参考"><a class="markdownIt-Anchor" href="#参考"></a> 参考</h2>
