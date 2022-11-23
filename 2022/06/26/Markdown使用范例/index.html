@@ -16,18 +16,18 @@
   <meta name="author" content="Bubu">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Markdown使用范例 markdown支持html语法，所以很多样式其实都可以用内置style写法实现  文字修饰 &lt;u&gt;&lt;u&gt;underline this, you can ctrl+u &lt;&#x2F;u&gt;&lt;&#x2F;u&gt; i want to delete this line bold this,you can ctrl + b lean this line,">
+    <meta name="description" content="Markdown的使用笔记">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Markdown使用范例">
 <meta property="og:url" content="http://bubumua.github.io/2022/06/26/Markdown%E4%BD%BF%E7%94%A8%E8%8C%83%E4%BE%8B/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Markdown使用范例 markdown支持html语法，所以很多样式其实都可以用内置style写法实现  文字修饰 &lt;u&gt;&lt;u&gt;underline this, you can ctrl+u &lt;&#x2F;u&gt;&lt;&#x2F;u&gt; i want to delete this line bold this,you can ctrl + b lean this line,">
+<meta property="og:description" content="Markdown的使用笔记">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-06-26T09:28:41.646Z">
-<meta property="article:modified_time" content="2022-11-12T08:36:34.546Z">
+<meta property="article:modified_time" content="2022-11-23T16:51:20.773Z">
 <meta property="article:author" content="Bubu">
-<meta property="article:tag" content="Markdown">
 <meta property="article:tag" content="说明书">
+<meta property="article:tag" content="Markdown">
 <meta name="twitter:card" content="summary_large_image">
   
   
@@ -287,7 +287,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          3.7k 字
+          5.1k 字
         
       </span>
     
@@ -298,7 +298,7 @@
         
         
         
-          31 分钟
+          43 分钟
         
       </span>
     
@@ -348,7 +348,7 @@
         aria-expanded="true"
       >
         笔记
-        <span class="list-group-count">(5)</span>
+        <span class="list-group-count">(4)</span>
         <i class="iconfont icon-arrowright"></i>
       </a>
       
@@ -421,7 +421,7 @@
         aria-expanded="true"
       >
         Markdown
-        <span class="list-group-count">(2)</span>
+        <span class="list-group-count">(1)</span>
         <i class="iconfont icon-arrowright"></i>
       </a>
       
@@ -432,15 +432,6 @@
           
   <div class="category-post-list">
     
-    
-      
-      
-        <a href="/2022/06/26/A%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/" title="A使用方法"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">A使用方法</span>
-        </a>
-      
     
       
       
@@ -508,7 +499,7 @@
         aria-expanded="true"
       >
         Markdown
-        <span class="list-group-count">(2)</span>
+        <span class="list-group-count">(1)</span>
         <i class="iconfont icon-arrowright"></i>
       </a>
       
@@ -519,15 +510,6 @@
           
   <div class="category-post-list">
     
-    
-      
-      
-        <a href="/2022/06/26/A%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/" title="A使用方法"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">A使用方法</span>
-        </a>
-      
     
       
       
@@ -562,7 +544,7 @@
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2022年11月12日 下午
+                    本文最后更新于：2022年11月24日 凌晨
                   
                 
               </p>
@@ -578,8 +560,9 @@
 <p><strong>bold this,you can ctrl + b</strong></p>
 <p><em>lean this line, you can ctrl + l</em></p>
 <p><code>&lt;span style='color:blue;background:pink;font-size:28px;font-family:幼圆;'&gt;html+内置style包围&lt;/span&gt;</code>效果如下：</p>
-<p><code>&lt;span style='color:blue;background:pink;font-size:28px;font-family:幼圆;'&gt;</code>html+内置style包围</p>
+<p><span style='color:blue;background:pink;font-size:28px;font-family:幼圆;'>html+内置style包围</span></p>
 <p><code>&lt;a href=&quot;#spch&quot;&gt;</code>跳转：其他特殊字符 <code>&lt;/a&gt;</code></p>
+<p>用Markdown语法，链接用 <code>[text](#your-id)</code>，锚点用span标签包裹，然后为span标签添加id属性。</p>
 <center>居中</center>
 <h2 id="分割线需要独占一行"><a class="markdownIt-Anchor" href="#分割线需要独占一行"></a> 分割线（需要独占一行）</h2>
 <hr />
@@ -649,6 +632,27 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 -7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
 H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
 c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></span></span></span></span></span></p>
+<h3 id="竖式计算"><a class="markdownIt-Anchor" href="#竖式计算"></a> 竖式计算</h3>
+this is\\
+\begin{array}{r}
+1001\ 0101B\\
++0100\ 1010B\\
+\hline
+1101\ 1111B
+\end{array}
+\\
+\begin{align}
+dfd
+\\
+dfdf
+\\
+dfdf
+\end{align}
+
+\\ce\{\}可以让括号内紧接着字母的数字自动变下标，一些符号自动变上标
+\\
+\ce{H2O,H,Ca^2+}
+
 <h3 id="希腊字母"><a class="markdownIt-Anchor" href="#希腊字母"></a> 希腊字母</h3>
 <table>
 <thead>
@@ -661,207 +665,304 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
 </thead>
 <tbody>
 <tr>
-<td>A A<em>A</em></td>
 <td>A</td>
-<td>α \alpha<em>α</em></td>
+<td>A</td>
+<td>α <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>α</mi></mrow><annotation encoding="application/x-tex">\alpha</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span></span></span></span></td>
 <td>\alpha</td>
 </tr>
 <tr>
-<td>B B<em>B</em></td>
 <td>B</td>
-<td>β \beta<em>β</em></td>
+<td>B</td>
+<td>β <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.05278em;">β</span></span></span></span></td>
 <td>\beta</td>
 </tr>
 <tr>
-<td>Γ \GammaΓ</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Γ</mi></mrow><annotation encoding="application/x-tex">\Gamma</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Γ</span></span></span></span></td>
 <td>\Gamma</td>
-<td>γ \gamma<em>γ</em></td>
+<td>γ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>γ</mi></mrow><annotation encoding="application/x-tex">\gamma</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.05556em;">γ</span></span></span></span></td>
 <td>\gamma</td>
 </tr>
 <tr>
-<td>Δ \DeltaΔ</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Δ</mi></mrow><annotation encoding="application/x-tex">\Delta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Δ</span></span></span></span></td>
 <td>\Delta</td>
-<td>δ \delta<em>δ</em></td>
+<td>δ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>δ</mi></mrow><annotation encoding="application/x-tex">\delta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03785em;">δ</span></span></span></span></td>
 <td>\delta</td>
 </tr>
 <tr>
-<td>E E<em>E</em></td>
 <td>E</td>
-<td>ϵ \epsilon<em>ϵ</em></td>
+<td>E</td>
+<td>ϵ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ϵ</mi></mrow><annotation encoding="application/x-tex">\epsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">ϵ</span></span></span></span></td>
 <td>\epsilon</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
-<td>ε \varepsilon<em>ε</em></td>
+<td>ε <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ε</mi></mrow><annotation encoding="application/x-tex">\varepsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">ε</span></span></span></span></td>
 <td>\varepsilon</td>
 </tr>
 <tr>
-<td>Z Z<em>Z</em></td>
 <td>Z</td>
-<td>ζ \zeta<em>ζ</em></td>
+<td>Z</td>
+<td>ζ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ζ</mi></mrow><annotation encoding="application/x-tex">\zeta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.07378em;">ζ</span></span></span></span></td>
 <td>\zeta</td>
 </tr>
 <tr>
-<td>H H<em>H</em></td>
 <td>H</td>
-<td>η \eta<em>η</em></td>
+<td>H</td>
+<td>η <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>η</mi></mrow><annotation encoding="application/x-tex">\eta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">η</span></span></span></span></td>
 <td>\eta</td>
 </tr>
 <tr>
-<td>Θ \ThetaΘ</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Θ</mi></mrow><annotation encoding="application/x-tex">\Theta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Θ</span></span></span></span></td>
 <td>\Theta</td>
-<td>θ \theta<em>θ</em></td>
+<td>θ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>θ</mi></mrow><annotation encoding="application/x-tex">\theta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">θ</span></span></span></span></td>
 <td>\theta</td>
 </tr>
 <tr>
-<td>I I<em>I</em></td>
 <td>I</td>
-<td>ι \iota<em>ι</em></td>
+<td>I</td>
+<td>ι <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ι</mi></mrow><annotation encoding="application/x-tex">\iota</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">ι</span></span></span></span></td>
 <td>\iota</td>
 </tr>
 <tr>
-<td>K K<em>K</em></td>
 <td>K</td>
-<td>κ \kappa<em>κ</em></td>
+<td>K</td>
+<td>κ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>κ</mi></mrow><annotation encoding="application/x-tex">\kappa</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">κ</span></span></span></span></td>
 <td>\kappa</td>
 </tr>
 <tr>
-<td>Λ \LambdaΛ</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Λ</mi></mrow><annotation encoding="application/x-tex">\Lambda</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Λ</span></span></span></span></td>
 <td>\Lambda</td>
-<td>λ \lambda<em>λ</em></td>
+<td>λ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>λ</mi></mrow><annotation encoding="application/x-tex">\lambda</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">λ</span></span></span></span></td>
 <td>\lambda</td>
 </tr>
 <tr>
-<td>M M<em>M</em></td>
 <td>M</td>
-<td>μ \mu<em>μ</em></td>
+<td>M</td>
+<td>μ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>μ</mi></mrow><annotation encoding="application/x-tex">\mu</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">μ</span></span></span></span></td>
 <td>\mu</td>
 </tr>
 <tr>
-<td>N N<em>N</em></td>
 <td>N</td>
-<td>ν \nu<em>ν</em></td>
+<td>N</td>
+<td>ν <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ν</mi></mrow><annotation encoding="application/x-tex">\nu</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.06366em;">ν</span></span></span></span></td>
 <td>\nu</td>
 </tr>
 <tr>
-<td>Ξ \XiΞ</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Ξ</mi></mrow><annotation encoding="application/x-tex">\Xi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Ξ</span></span></span></span></td>
 <td>\Xi</td>
-<td>ξ \xi<em>ξ</em></td>
+<td>ξ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ξ</mi></mrow><annotation encoding="application/x-tex">\xi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.04601em;">ξ</span></span></span></span></td>
 <td>\xi</td>
 </tr>
 <tr>
-<td>O O<em>O</em></td>
 <td>O</td>
-<td>ο \omicron<em>ο</em></td>
+<td>O</td>
+<td>ο <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ο</mi></mrow><annotation encoding="application/x-tex">\omicron</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">ο</span></span></span></span></td>
 <td>\omicron</td>
 </tr>
 <tr>
-<td>Π \PiΠ</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Π</mi></mrow><annotation encoding="application/x-tex">\Pi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Π</span></span></span></span></td>
 <td>\Pi</td>
-<td>π \pi<em>π</em></td>
+<td>π <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>π</mi></mrow><annotation encoding="application/x-tex">\pi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">π</span></span></span></span></td>
 <td>\pi</td>
 </tr>
 <tr>
-<td>P P<em>P</em></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>P</mi></mrow><annotation encoding="application/x-tex">P</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span></span></span></span></td>
 <td>P</td>
-<td>ρ \rho<em>ρ</em></td>
+<td>ρ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ρ</mi></mrow><annotation encoding="application/x-tex">\rho</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">ρ</span></span></span></span></td>
 <td>\rho</td>
 </tr>
 <tr>
-<td>Σ \SigmaΣ</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Σ</mi></mrow><annotation encoding="application/x-tex">\Sigma</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Σ</span></span></span></span></td>
 <td>\Sigma</td>
-<td>σ \sigma<em>σ</em></td>
+<td>σ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>σ</mi></mrow><annotation encoding="application/x-tex">\sigma</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">σ</span></span></span></span></td>
 <td>\sigma</td>
 </tr>
 <tr>
-<td>T T<em>T</em></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>T</mi></mrow><annotation encoding="application/x-tex">T</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span></span></span></span></td>
 <td>T</td>
-<td>τ \tau<em>τ</em></td>
+<td>τ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>τ</mi></mrow><annotation encoding="application/x-tex">\tau</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.1132em;">τ</span></span></span></span></td>
 <td>\tau</td>
 </tr>
 <tr>
-<td>Υ \UpsilonΥ</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Υ</mi></mrow><annotation encoding="application/x-tex">\Upsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Υ</span></span></span></span></td>
 <td>\Upsilon</td>
-<td>υ \upsilon<em>υ</em></td>
+<td>υ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>υ</mi></mrow><annotation encoding="application/x-tex">\upsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">υ</span></span></span></span></td>
 <td>\upsilon</td>
 </tr>
 <tr>
-<td>Φ \PhiΦ</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Φ</mi></mrow><annotation encoding="application/x-tex">\Phi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Φ</span></span></span></span></td>
 <td>\Phi</td>
-<td>ϕ \phi<em>ϕ</em></td>
+<td>ϕ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ϕ</mi></mrow><annotation encoding="application/x-tex">\phi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">ϕ</span></span></span></span></td>
 <td>\phi</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
-<td>φ \varphi<em>φ</em></td>
+<td>φ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>φ</mi></mrow><annotation encoding="application/x-tex">\varphi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">φ</span></span></span></span></td>
 <td>\varphi</td>
 </tr>
 <tr>
-<td>X X<em>X</em></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>X</mi></mrow><annotation encoding="application/x-tex">X</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">X</span></span></span></span></td>
 <td>X</td>
-<td>χ \chi<em>χ</em></td>
+<td>χ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>χ</mi></mrow><annotation encoding="application/x-tex">\chi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">χ</span></span></span></span></td>
 <td>\chi</td>
 </tr>
 <tr>
-<td>Ψ \PsiΨ</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Ψ</mi></mrow><annotation encoding="application/x-tex">\Psi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Ψ</span></span></span></span></td>
 <td>\Psi</td>
-<td>ψ \psi<em>ψ</em></td>
+<td>ψ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ψ</mi></mrow><annotation encoding="application/x-tex">\psi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">ψ</span></span></span></span></td>
 <td>\psi</td>
 </tr>
 <tr>
-<td>Ω \OmegaΩ</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Ω</mi></mrow><annotation encoding="application/x-tex">\Omega</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Ω</span></span></span></span></td>
 <td>\Omega</td>
-<td>ω \omega<em>ω</em></td>
+<td>ω <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ω</mi></mrow><annotation encoding="application/x-tex">\omega</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">ω</span></span></span></span></td>
 <td>\omega</td>
 </tr>
 </tbody>
 </table>
+<p>$</p>
 <h3 id="运算符"><a class="markdownIt-Anchor" href="#运算符"></a> <strong>运算符</strong></h3>
 <table>
 <thead>
 <tr>
 <th>运算符</th>
-<th>Markdown</th>
+<th>latex</th>
+<th>运算符</th>
+<th>latex</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>± \pm±</td>
-<td>\pm</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>±</mo></mrow><annotation encoding="application/x-tex">\pm</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">±</span></span></span></span></td>
+<td><code>\pm</code></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∓</mo></mrow><annotation encoding="application/x-tex">\mp</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">∓</span></span></span></span></td>
+<td><code>\mp</code></td>
 </tr>
 <tr>
-<td>\times</td>
-<td>\times</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>×</mo></mrow><annotation encoding="application/x-tex">\times</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">×</span></span></span></span></td>
+<td><code>\times</code></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>⋅</mo></mrow><annotation encoding="application/x-tex">\cdot</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.44445em;vertical-align:0em;"></span><span class="mord">⋅</span></span></span></span></td>
+<td><code>\cdot</code></td>
 </tr>
 <tr>
-<td>⋅ \cdot⋅</td>
-<td>\cdot</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>÷</mo></mrow><annotation encoding="application/x-tex">\div</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">÷</span></span></span></span></td>
+<td><code>\div</code></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td>÷ \div÷</td>
-<td>\div</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">≠</mi></mrow><annotation encoding="application/x-tex">\neq</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mrel"><span class="mrel"><span class="mord"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="rlap"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="inner"><span class="mrel"></span></span><span class="fix"></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.19444em;"><span></span></span></span></span></span></span><span class="mrel">=</span></span></span></span></span></td>
+<td><code>\neq</code></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>≡</mo></mrow><annotation encoding="application/x-tex">\equiv</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.46375em;vertical-align:0em;"></span><span class="mrel">≡</span></span></span></span></td>
+<td><code>\equiv</code></td>
 </tr>
 <tr>
-<td>\neq</td>
-<td>\neq</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>≤</mo></mrow><annotation encoding="application/x-tex">\leq</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mrel">≤</span></span></span></span></td>
+<td><code>\leq</code></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>≥</mo></mrow><annotation encoding="application/x-tex">\geq</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mrel">≥</span></span></span></span></td>
+<td><code>\geq</code></td>
 </tr>
 <tr>
-<td>≡ \equiv≡</td>
-<td>\equiv</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>≪</mo></mrow><annotation encoding="application/x-tex">\ll</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">≪</span></span></span></span></td>
+<td><code>\ll</code></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>≫</mo></mrow><annotation encoding="application/x-tex">\gg</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">≫</span></span></span></span></td>
+<td><code>\gg</code></td>
 </tr>
 <tr>
-<td>≤ \leq≤</td>
-<td>\leq</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∼</mo></mrow><annotation encoding="application/x-tex">\sim</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">∼</span></span></span></span></td>
+<td><code>\sim</code></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>≅</mo></mrow><annotation encoding="application/x-tex">\cong</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.589em;vertical-align:0em;"></span><span class="mrel">≅</span></span></span></span></td>
+<td><code>\cong</code></td>
 </tr>
 <tr>
-<td>≥ \geq≥</td>
-<td>\geq</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>⊂</mo></mrow><annotation encoding="application/x-tex">\subset</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">⊂</span></span></span></span></td>
+<td><code>\subset</code></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>⊆</mo></mrow><annotation encoding="application/x-tex">\subseteq</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mrel">⊆</span></span></span></span></td>
+<td><code>\subseteq</code></td>
+</tr>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>⊃</mo></mrow><annotation encoding="application/x-tex">\supset</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">⊃</span></span></span></span></td>
+<td><code>\supset</code></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>⊇</mo></mrow><annotation encoding="application/x-tex">\supseteq</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mrel">⊇</span></span></span></span></td>
+<td><code>\supseteq</code></td>
+</tr>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∈</mo></mrow><annotation encoding="application/x-tex">\in</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">∈</span></span></span></span></td>
+<td><code>\in</code></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∋</mo></mrow><annotation encoding="application/x-tex">\ni</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">∋</span></span></span></span></td>
+<td><code>\ni</code></td>
+</tr>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∉</mi></mrow><annotation encoding="application/x-tex">\notin</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mrel"><span class="mord"><span class="mrel">∈</span></span><span class="mord"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.75em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="llap"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="inner"><span class="mord"><span class="mord">/</span><span class="mspace" style="margin-right:0.05555555555555555em;"></span></span></span><span class="fix"></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.25em;"><span></span></span></span></span></span></span></span></span></span></td>
+<td><code>\notin</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∩</mo></mrow><annotation encoding="application/x-tex">\cap</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord">∩</span></span></span></span></td>
+<td><code>\cap</code></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∪</mo></mrow><annotation encoding="application/x-tex">\cup</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord">∪</span></span></span></span></td>
+<td><code>\cup</code></td>
+</tr>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∨</mo></mrow><annotation encoding="application/x-tex">\vee</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord">∨</span></span></span></span></td>
+<td><code>\vee</code></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∧</mo></mrow><annotation encoding="application/x-tex">\wedge</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord">∧</span></span></span></span></td>
+<td><code>\wedge</code></td>
+</tr>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∘</mo></mrow><annotation encoding="application/x-tex">\circ</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.44445em;vertical-align:0em;"></span><span class="mord">∘</span></span></span></span></td>
+<td><code>\circ</code></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>⊕</mo></mrow><annotation encoding="application/x-tex">\oplus</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">⊕</span></span></span></span></td>
+<td><code>\oplus</code></td>
+</tr>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>⊗</mo></mrow><annotation encoding="application/x-tex">\otimes</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">⊗</span></span></span></span></td>
+<td><code>\otimes</code></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>⊙</mo></mrow><annotation encoding="application/x-tex">\odot</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">⊙</span></span></span></span></td>
+<td><code>\odot</code></td>
+</tr>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>△</mo></mrow><annotation encoding="application/x-tex">\bigtriangleup</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord">△</span></span></span></span></td>
+<td><code>\bigtriangleup</code></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>▽</mo></mrow><annotation encoding="application/x-tex">\bigtriangledown</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord">▽</span></span></span></span></td>
+<td><code>\bigtriangledown</code></td>
+</tr>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>⊥</mo></mrow><annotation encoding="application/x-tex">\perp</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mrel">⊥</span></span></span></span></td>
+<td><code>\perp</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∑</mo></mrow><annotation encoding="application/x-tex">\sum</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.00001em;vertical-align:-0.25001em;"></span><span class="mop op-symbol small-op" style="position:relative;top:-0.0000050000000000050004em;">∑</span></span></span></span></td>
+<td><code>\sum</code></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∏</mo></mrow><annotation encoding="application/x-tex">\prod</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.00001em;vertical-align:-0.25001em;"></span><span class="mop op-symbol small-op" style="position:relative;top:-0.0000050000000000050004em;">∏</span></span></span></span></td>
+<td><code>\prod</code></td>
+</tr>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∫</mo></mrow><annotation encoding="application/x-tex">\int</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.11112em;vertical-align:-0.30612em;"></span><span class="mop op-symbol small-op" style="margin-right:0.19445em;position:relative;top:-0.0005599999999999772em;">∫</span></span></span></span></td>
+<td><code>\int</code></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∮</mo></mrow><annotation encoding="application/x-tex">\oint</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.11112em;vertical-align:-0.30612em;"></span><span class="mop op-symbol small-op" style="margin-right:0.19445em;position:relative;top:-0.0005599999999999772em;">∮</span></span></span></span></td>
+<td><code>\oint</code></td>
+</tr>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∝</mo></mrow><annotation encoding="application/x-tex">\propto</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mrel">∝</span></span></span></span></td>
+<td><code>\propto</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∣</mo></mrow><annotation encoding="application/x-tex">\mid</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mrel">∣</span></span></span></span></td>
+<td><code>\mid</code></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<h3 id="span-idspch其它特殊字符"><a class="markdownIt-Anchor" href="#span-idspch其它特殊字符"></a> <code>&lt;span id=&quot;spch&quot;&gt;</code>其它特殊字符</h3>
+<h3 id="span-idspch其它特殊字符span"><a class="markdownIt-Anchor" href="#span-idspch其它特殊字符span"></a> <span id="spch">其它特殊字符</span></h3>
 <table>
 <thead>
 <tr>
@@ -871,40 +972,48 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
 </thead>
 <tbody>
 <tr>
-<td>∀ \forall∀</td>
-<td>\forall</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∀</mi></mrow><annotation encoding="application/x-tex">\forall</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">∀</span></span></span></span></td>
+<td><code>\forall</code></td>
 </tr>
 <tr>
-<td>∞ \infty∞</td>
-<td>\infty</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∃</mi></mrow><annotation encoding="application/x-tex">\exists</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">∃</span></span></span></span></td>
+<td><code>\exists</code></td>
 </tr>
 <tr>
-<td>∅ \emptyset∅</td>
-<td>\emptyset</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∵</mo></mrow><annotation encoding="application/x-tex">\because</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69224em;vertical-align:0em;"></span><span class="mrel amsrm">∵</span></span></span></span></td>
+<td><code>\because</code></td>
 </tr>
 <tr>
-<td>∃ \exists∃</td>
-<td>\exists</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∴</mo></mrow><annotation encoding="application/x-tex">\therefore</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69224em;vertical-align:0em;"></span><span class="mrel amsrm">∴</span></span></span></span></td>
+<td><code>\therefore</code></td>
 </tr>
 <tr>
-<td>∇ \nabla∇</td>
-<td>\nabla</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∠</mi></mrow><annotation encoding="application/x-tex">\angle</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69224em;vertical-align:0em;"></span><span class="mord">∠</span></span></span></span></td>
+<td><code>\angle</code></td>
 </tr>
 <tr>
-<td>⊥ \bot⊥</td>
-<td>\bot</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">⊥</mi></mrow><annotation encoding="application/x-tex">\bot</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">⊥</span></span></span></span></td>
+<td><code>\bot</code></td>
 </tr>
 <tr>
-<td>∠ \angle∠</td>
-<td>\angle</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∇</mi></mrow><annotation encoding="application/x-tex">\nabla</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">∇</span></span></span></span></td>
+<td><code>\nabla</code></td>
 </tr>
 <tr>
-<td>∵ \because∵</td>
-<td>\because</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∞</mi></mrow><annotation encoding="application/x-tex">\infty</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord">∞</span></span></span></span></td>
+<td><code>\infty</code></td>
 </tr>
 <tr>
-<td>∴ \therefore∴</td>
-<td>\therefore</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∅</mi></mrow><annotation encoding="application/x-tex">\emptyset</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.80556em;vertical-align:-0.05556em;"></span><span class="mord">∅</span></span></span></span></td>
+<td><code>\emptyset</code></td>
+</tr>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="double-struck">R</mi></mrow><annotation encoding="application/x-tex">\mathbb{R}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68889em;vertical-align:0em;"></span><span class="mord"><span class="mord mathbb">R</span></span></span></span></span></td>
+<td><code>\mathbb&#123;R&#125;</code></td>
+</tr>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>z</mi></mrow><annotation encoding="application/x-tex">\mathbb{z}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.04398em;">z</span></span></span></span></span></td>
+<td><code>\mathbb&#123;z&#125;</code></td>
 </tr>
 </tbody>
 </table>
@@ -919,6 +1028,10 @@ c-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></spa
 \hat{\alpha}
 \tilde{\iota}
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.56778em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">x</span></span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.22222em;">ˉ</span></span></span></span></span></span><span class="mord accent"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">η</span></span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.19444em;">ˊ</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.19444em;"><span></span></span></span></span></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.62847em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.0037em;">α</span></span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.22222em;">ˇ</span></span></span></span></span></span><span class="mord accent"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">η</span></span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.19444em;">ˋ</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.19444em;"><span></span></span></span></span></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">a</span></span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.25em;">˘</span></span></span></span></span></span><span class="mord accent"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.66786em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">y</span></span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.19444em;">¨</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.19444em;"><span></span></span></span></span></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.66786em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">x</span></span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.11111000000000001em;">˙</span></span></span></span></span></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.0037em;">α</span></span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.22222em;">^</span></span></span></span></span></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6678599999999999em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">ι</span></span></span><span style="top:-3.35em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.19444em;">~</span></span></span></span></span></span></span></span></span></span></p>
+<h2 id="flow"><a class="markdownIt-Anchor" href="#flow"></a> flow</h2>
+<p>一种简单的流程图语法。这里介绍一种先“定义/声明“，后”连接“的代码组织形式。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs flow">st=&gt;start: Start<br>i=&gt;inputoutput: 输入年份n<br>cond1=&gt;condition: n能否被4整除？<br>cond2=&gt;condition: n能否被100整除？<br>cond3=&gt;condition: n能否被400整除？<br>o1=&gt;inputoutput: 输出非闰年<br>o2=&gt;inputoutput: 输出非闰年<br>o3=&gt;inputoutput: 输出闰年<br>o4=&gt;inputoutput: 输出闰年<br>e=&gt;end<br><br>st-&gt;i-&gt;cond1<br>cond1(no)-&gt;o1-&gt;e<br>cond1(yes)-&gt;cond2<br>cond2(no)-&gt;o3-&gt;e<br>cond2(yes)-&gt;cond3<br>cond3(yes)-&gt;o2-&gt;e<br>cond3(no)-&gt;o4-&gt;e<br></code></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs flow">st=&gt;start: Start<br>i=&gt;inputoutput: 输入年份n<br>cond1=&gt;condition: n能否被4整除？<br>cond2=&gt;condition: n能否被100整除？<br>cond3=&gt;condition: n能否被400整除？<br>o1=&gt;inputoutput: 输出非闰年<br>o2=&gt;inputoutput: 输出非闰年<br>o3=&gt;inputoutput: 输出闰年<br>o4=&gt;inputoutput: 输出闰年<br>e=&gt;end<br><br>st-&gt;i-&gt;cond1<br>cond1(no)-&gt;o1-&gt;e<br>cond1(yes)-&gt;cond2<br>cond2(no)-&gt;o3-&gt;e<br>cond2(yes)-&gt;cond3<br>cond3(yes)-&gt;o2-&gt;e<br>cond3(no)-&gt;o4-&gt;e<br></code></pre></td></tr></table></figure>
 <h2 id="mermaid"><a class="markdownIt-Anchor" href="#mermaid"></a> mermaid</h2>
 <h3 id="flowchart"><a class="markdownIt-Anchor" href="#flowchart"></a> flowchart</h3>
 <p>看着和flow差不多，都是方形（或者其他形状）节点相互连线</p>
@@ -999,9 +1112,9 @@ style n1 fill:#f9f,stroke:#333,stroke-width:4px
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/Markdown/">#Markdown</a>
-      
         <a href="/tags/%E8%AF%B4%E6%98%8E%E4%B9%A6/">#说明书</a>
+      
+        <a href="/tags/Markdown/">#Markdown</a>
       
     </div>
   
@@ -1032,7 +1145,7 @@ style n1 fill:#f9f,stroke:#333,stroke-width:4px
       
         <div class="license-meta-item license-meta-date">
           <div>更新于</div>
-          <div>2022年11月12日</div>
+          <div>2022年11月24日</div>
         </div>
       
       <div class="license-meta-item">
@@ -1071,8 +1184,8 @@ style n1 fill:#f9f,stroke:#333,stroke-width:4px
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/06/26/A%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/" title="A使用方法">
-                        <span class="hidden-mobile">A使用方法</span>
+                      <a href="/2022/06/26/hello-world/" title="Hello World">
+                        <span class="hidden-mobile">Hello World</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
