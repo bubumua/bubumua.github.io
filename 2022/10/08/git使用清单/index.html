@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://bubumua.github.io/img/assets/avatar.jpg">
 <meta property="article:published_time" content="2022-10-08T14:55:03.422Z">
-<meta property="article:modified_time" content="2022-11-12T09:14:12.449Z">
+<meta property="article:modified_time" content="2022-12-11T12:13:54.994Z">
 <meta property="article:author" content="Bubu">
 <meta property="article:tag" content="git">
 <meta name="twitter:card" content="summary_large_image">
@@ -288,7 +288,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.1k 字
+          1.4k 字
         
       </span>
     
@@ -299,7 +299,7 @@
         
         
         
-          10 分钟
+          12 分钟
         
       </span>
     
@@ -545,7 +545,7 @@
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2022年11月12日 下午
+                    本文最后更新于：2022年12月11日 晚上
                   
                 
               </p>
@@ -567,10 +567,11 @@
 <p>git checkout &lt;branch_name&gt;	切换分支</p>
 <p>git checkout  -b &lt;branch_name&gt;	创建并切换分支</p>
 <p>git branch -d &lt;branch_name&gt; 删除分支</p>
-<p>git merge</p>
+<p>git merge &lt;branch_name&gt; 将目标分支合并到当前分支</p>
 <h2 id="拉取代码">拉取代码</h2>
 <p>git pull &lt;remote_name&gt;  &lt;remote_branch_name&gt;:&lt;local_branch_name&gt;	拉取远程分支到本地分支，在pull后加上空格 <code>--force</code>就能强制拉取覆盖</p>
 <p>git fetch &lt;remote_name&gt; 获取远程仓库更新</p>
+<p>git fetch &lt;remote_name&gt; &lt;remote_branch_name&gt;:&lt;new_branch_name&gt; 将远程分支拉取到新建的本地分支</p>
 <h2 id="提交推送一条龙">提交推送一条龙</h2>
 <p>git add (&lt;file_name&gt;|-A)</p>
 <p>git commit -m &lt;“your commit message”&gt;</p>
@@ -608,11 +609,18 @@
 <p>推送代码到自己的远程仓库后，请求合并</p>
 </li>
 </ol>
-<h1>不常用的操作</h1>
+<h1>解决问题</h1>
 <h2 id="解决vscode无法连接到GitHub的问题">解决vscode无法连接到GitHub的问题</h2>
 <p>git config --global --unset git.proxy<br>
 git config --global --unset https.proxy<br>
 git config --global --unset http.proxy</p>
+<h2 id="无法连接到GitHub">无法连接到GitHub</h2>
+<blockquote>
+<p>fatal: unable to connect to <a target="_blank" rel="noopener" href="http://github.com">github.com</a>:<br>
+<a target="_blank" rel="noopener" href="http://github.com">github.com</a>[0: 20.205.243.166]: errno=Unknown error</p>
+</blockquote>
+<p>解决方法：</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">git config --global url.https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/.insteadOf git:/</span><span class="hljs-regexp">/github.com/</span><br></code></pre></td></tr></table></figure>
 <h2 id="生成公钥和密钥">生成公钥和密钥</h2>
 <p>ssh-keygen -t rsa -C “<a href="mailto:1069785399@qq.com">1069785399@qq.com</a>”</p>
 
@@ -686,7 +694,7 @@ git config --global --unset http.proxy</p>
       
         <div class="license-meta-item license-meta-date">
           <div>更新于</div>
-          <div>2022年11月12日</div>
+          <div>2022年12月11日</div>
         </div>
       
       <div class="license-meta-item">
