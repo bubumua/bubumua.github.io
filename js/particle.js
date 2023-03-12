@@ -5,7 +5,7 @@ const ctx = canvas.getContext('2d');
 canvas.style.position = 'absolute';
 canvas.style.top = '0px';
 canvas.style.left = '0px';
-canvas.style.zIndex = -10;
+// canvas.style.zIndex = -10;
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
