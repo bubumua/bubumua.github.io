@@ -1,0 +1,1 @@
+hexo.extend.injector.register('body_end', '<canvas id="particle">Particle</canvas>', 'default');
